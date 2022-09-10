@@ -16,7 +16,7 @@ jobs:
         with:
           registry: taeheilee/myrepo
           username: taeheilee
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: dckr_pat_358b_qD9QIeVEDuTdFuJ8Su5bGE
       
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v3.0.0
